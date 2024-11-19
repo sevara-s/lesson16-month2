@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/tailwind.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header started  -->
+    <section class="header bg-[white]">
+      <div class="container flex items-center justify-between p-[25px]">
+        <div class="header_links_left flex items-center gap-[25px]">
+          <label for="check"> <img src="./img/header_logo.png" alt="" /></label>
+
+          <input type="checkbox" id="check" class="hidden" />
+          <div class="links flex items-center gap-[25px] max-[1024px]:hidden">
+            <p>
+              <a class="font-[400] text-[18px] text-[#575756]" href="#"
+                >Аналитика</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[18px] text-[#575756]" href="#"
+                >Сообщество</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[18px] text-[#575756]" href="#"
+                >Для организаций</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="header_next flex items-center gap-[25px]">
+          <button class="btn max-[525px]:hidden">Создать заявку</button>
+          <img class="max-[300px]:hidden" src="./svg/global.svg" alt="" />
+          <img src="./svg/left.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- header ended -->
+
+    <!-- main started -->
+    <main class="main">
+      <div class="container">
+        <h1 class="text-[50px] font-[700]">Создание заявки</h1>
+        <div class="bottom_main flex items-center justify-between">
+          <div class="main_btn flex items-center">
+            <button class="bt1">Я заказчик</button>
+            <button class="bt2">Я исполнитель</button>
+          </div>
+          <p>
+            <a href="#"
+              >Для публикации заявки вам необходимо
+              <span>зарегистрироваться.</span>
+            </a>
+          </p>
+        </div>
+
+        <div class="radiobox_top mt-[40px] flex items-center justify-between">
+          <div class="first flex items-center gap-[10px]">
+            <img src="./svg/first.svg" alt="" />
+            <p>
+              <a class="font-[600] text-[22px] text-[#3a85f4]" href="#"
+                >Я хочу</a
+              >
+            </p>
+          </div>
+          <div class="second flex items-center gap-[10px]">
+            <img src="./svg/second.svg" alt="" />
+            <p>
+              <a class="font-[600] text-[22px] text-[#3a85f4]" href="#"
+                >Я предлагаю</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="radioboxs grid grid-cols-3 max-[1150px]:grid-cols-1">
+          <!-- first -->
+          <div class="questions1 flex flex-col gap-[15px]">
+            <div class="q1">
+              <input type="radio" id="radiobox1" />
+              <label for="radiobox1">Повысить цитируемость своих работ</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox2" />
+              <label for="radiobox2">Стать соавтором</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox3" />
+              <label for="radiobox3">Заказать исследования</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox4" />
+              <label for="radiobox4"
+                >Заказать работу с текстом и графикой</label
+              >
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox5" />
+              <label for="radiobox5">Найти эксперта</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox6" />
+              <label for="radiobox6">Повысить цитируемость своих работ</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox7" />
+              <label for="radiobox7">Стать соавтором</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox8" />
+              <label for="radiobox8">Заказать исследования</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox9" />
+              <label for="radiobox9"
+                >Заказать работу с текстом и графикой</label
+              >
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox10" />
+              <label for="radiobox10">Найти эксперта</label>
+            </div>
+          </div>
+          <!-- second -->
+          <div class="questions1 flex flex-col gap-[15px]">
+            <div class="q1">
+              <input type="radio" id="radiobox1" />
+              <label for="radiobox1">Повысить цитируемость своих работ</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox2" />
+              <label for="radiobox2">Стать соавтором</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox3" />
+              <label for="radiobox3">Заказать исследования</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox4" />
+              <label for="radiobox4"
+                >Заказать работу с текстом и графикой</label
+              >
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox5" />
+              <label for="radiobox5">Найти эксперта</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox6" />
+              <label for="radiobox6">Повысить цитируемость своих работ</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox7" />
+              <label for="radiobox7">Стать соавтором</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox8" />
+              <label for="radiobox8">Заказать исследования</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox9" />
+              <label for="radiobox9"
+                >Заказать работу с текстом и графикой</label
+              >
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox10" />
+              <label for="radiobox10">Найти эксперта</label>
+            </div>
+          </div>
+          <!-- third -->
+          <div class="questions1 flex flex-col gap-[15px]">
+            <div class="q1">
+              <input type="radio" id="radiobox1" />
+              <label for="radiobox1">Повысить цитируемость своих работ</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox2" />
+              <label for="radiobox2">Стать соавтором</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox3" />
+              <label for="radiobox3">Заказать исследования</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox4" />
+              <label for="radiobox4"
+                >Заказать работу с текстом и графикой</label
+              >
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox5" />
+              <label for="radiobox5">Найти эксперта</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox6" />
+              <label for="radiobox6">Повысить цитируемость своих работ</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox7" />
+              <label for="radiobox7">Стать соавтором</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox8" />
+              <label for="radiobox8">Заказать исследования</label>
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox9" />
+              <label for="radiobox9"
+                >Заказать работу с текстом и графикой</label
+              >
+            </div>
+            <div class="q1">
+              <input type="radio" id="radiobox10" />
+              <label for="radiobox10">Найти эксперта</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="text flex items-center gap-[5px]">
+          <img src="./svg/text.svg" alt="" />
+          <p>
+            <a class="font-[600] text-[18px] text-[#3a85f4]" href="#"
+              >Описание работы</a
+            >
+          </p>
+        </div>
+
+        <label
+          for="message"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          >Your message</label
+        >
+        <textarea
+          id="message"
+          rows="4"
+          class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+          placeholder="Write your thoughts here..."
+        ></textarea>
+
+        <div class="lastpart flex gap-[20px] mt-[50px]">
+          <!-- part1 -->
+          <div class="part1">
+            <div class="part1_header flex items-center gap-[5px]">
+              <img src="./svg/last1.svg" alt="" />
+              <p>
+                <a class="font-[600] text-[22px] text-[#3a85f4]" href="#"
+                  >Ключевые слова</a
+                >
+              </p>
+            </div>
+            <div class="part1_btns">
+              <button>первый и очень сильно длинный ключ</button>
+              <button>второй ключ</button>
+              <button>третий ключ</button>
+              <button>четвертый ключ</button>
+              <button>пятый ключ</button>
+              <button>шестой ключ</button>
+            </div>
+          </div>
+          <!-- part2 -->
+          <div class="part2">
+            <div class="part2_top flex items-center gap-[5px]">
+              <img src="./svg/last2.svg" alt="" />
+              <p class="font-[600] text-[22px] text-[#3a85f4]">
+                Область знаний
+              </p>
+            </div>
+            <div class="checkboxs flex items-center gap-[20px]">
+              <!-- box1 -->
+              <div class="b1 flex flex-col gap-[15px]">
+                <!-- 1 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+                <!-- 2 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+                <!-- 3 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+                <!-- 4 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+              </div>
+              <!-- box2 -->
+              <div class="b1 flex flex-col gap-[15px]">
+                <!-- 1 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+                <!-- 2 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+                <!-- 3 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+                <!-- 4 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+              </div>
+              <!-- box3 -->
+              <div class="b1 flex flex-col gap-[15px]">
+                <!-- 1 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+                <!-- 2 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+                <!-- 3 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+                <!-- 4 -->
+                <div class="checking">
+                  <input type="checkbox" id="ch1" />
+                  <label for="ch1">Biology/Genetics</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- part3 -->
+          <div class="part3">
+            <div class="part3_top">
+              <p>
+                <a class="font-[600] text-[22px] text-[#3a85f4]" href="#"
+                  >Срок исполнения</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main ended -->
+    <div class="last_requests">
+      <div class="container flex flex-col items-center mt-[40px]">
+        <div class="r_btns flex items-center gap-[10px] mt-[50px]">
+          <button class="btn">добавить заявку</button>
+          <button class="btn btn1">Зарегистрироваться и Опубликовать</button>
+        </div>
+        <p class="font-400 text-[16px] text-[#b8b8b8] mb-[40px]">
+          Вам не придется заново заполнять форму, после регистрации ваша заявка
+          будет отправлена на публикацию.
+        </p>
+      </div>
+    </div>
+
+    <!-- footer started -->
+    <footer class="footer bg-black">
+      <div class="container p-[20px]">
+        <div
+          class="footer_links flex items-center justify-between max-[1070px]:flex-col"
+        >
+          <div class="links1 flex items-center flex-col">
+            <p><a class="text-[white]" href="#">Authortie </a></p>
+            <p><a class="text-[#888]" href="#">© Все права защищены</a></p>
+          </div>
+          <div class="links2 flex items-center gap-[25px] max-[845px]:flex-col">
+            <p>
+              <a
+                class="text-[white] text-[16px] font-[400] text-center max-[310px]:hidden"
+                href="#"
+                >Политика конфиденциальности</a
+              >
+            </p>
+            <p>
+              <a class="text-[white] text-[16px] font-[400]" href="#"
+                >Аналитика</a
+              >
+            </p>
+            <p>
+              <a class="text-[white] text-[16px] font-[400]" href="#"
+                >Сообщество</a
+              >
+            </p>
+            <p>
+              <a class="text-[white] text-[16px] font-[400]" href="#"
+                >Для организаций</a
+              >
+            </p>
+          </div>
+          <div
+            class="footer_icons flex items-center gap-[15px] max-[1070px]:mt-[20px]"
+          >
+            <img src="./svg/facebook.svg" alt="" />
+            <img src="./svg/instagram.svg" alt="" />
+            <img src="./svg/telegram.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ended -->
+  </body>
+</html>

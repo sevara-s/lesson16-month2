@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/tailwind.css" />
+    <title>lesson16</title>
+  </head>
+  <body>
+    <!-- header started  -->
+    <section class="header bg-[white]">
+      <div class="container flex items-center justify-between p-[25px]">
+        <div class="header_links_left flex items-center gap-[25px]">
+          <label for="check"> <img src="./img/header_logo.png" alt="" /></label>
+
+          <input type="checkbox" id="check" class="hidden" />
+          <div class="links flex items-center gap-[25px] max-[1024px]:hidden">
+            <p>
+              <a class="font-[400] text-[18px] text-[#575756]" href="./second.html"
+                >Аналитика</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[18px] text-[#575756]" href="#"
+                >Сообщество</a
+              >
+            </p>
+            <p>
+              <a class="font-[400] text-[18px] text-[#575756]" href="#"
+                >Для организаций</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="header_next flex items-center gap-[25px]">
+          <button class="btn max-[525px]:hidden">Создать заявку</button>
+          <img class="max-[300px]:hidden" src="./svg/global.svg" alt="" />
+          <img src="./svg/left.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- header ended -->
+
+    <!-- showcase started -->
+    <section class="showcase bg-[linear-gradient(110deg, #fff 0%, rgba(255, 255, 255, 0) 100%)]">
+      <div
+        class="container flex items-center gap-[20px] max-[1125px]:flex-col p-[15px] max-[1125px]:gap-[20px] mt-[60px]"
+      >
+        <div class="showcase_headers flex flex-col gap-[20px]">
+          <h1
+            class="font-[700] text-[50px] text-[#2f2f2f] max-[1300px]:text-[30px] max-[400px]:text-[25px]"
+          >
+            Сообщество взаимопомощи между учёными со всего мира
+          </h1>
+          <p
+            class="font-[400] text-[20px] text-[2f2f2f] max-[400px]:text-[15px]"
+          >
+            Удобный сервис, который подберёт для вас коллег и поможет наладить с
+            ними взаимовыгодное сотрудничество в областях совместных
+            исследований, соавторства, рецензирования и повышения индекса
+            цитирования.
+          </p>
+          <button class="btn btn1 max-[400px]:text-[10px]">
+            Присоединиться
+          </button>
+        </div>
+        <div class="showcase_img">
+          <img class="max-[410px]:hidden" src="./img/showcase.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- showcase ended -->
+
+    <!-- section:works started -->
+    <section class="works">
+      <div
+        class="container mt-[50px] flex items-center flex-col gap-[30px] p-[15px]"
+      >
+        <h1
+          class="font-[400] text-[40px] text-[ #383838] max-[385px]:text-[25px] pt-[60px]"
+        >
+          Как это работает
+        </h1>
+        <div
+          class="cards grid grid-cols-4 items-center justify-center gap-[50px] max-[800px]:grid-cols-2"
+        >
+          <!-- card1 -->
+          <div class="card1 flex items-center flex-col gap-4 justify-center">
+            <img src="./img/icon1.png" alt="" />
+            <p
+              class="text-center text-[16px] font-[400] max-[420px]:text-[12px]"
+            >
+              Оцените привлекательность <br />
+              темы
+            </p>
+          </div>
+
+          <!-- card2 -->
+          <div class="card1 flex items-center flex-col gap-4 justify-center">
+            <img src="./img/icon2.png" alt="" />
+            <p
+              class="text-center text-[16px] font-[400] max-[420px]:text-[12px]"
+            >
+              Выполните совместные исследования
+            </p>
+          </div>
+
+          <!-- card3 -->
+          <div class="card1 flex items-center flex-col gap-4 justify-center">
+            <img src="./img/icon3.png" alt="" />
+            <p
+              class="text-center text-[16px] font-[400] max-[420px]:text-[12px]"
+            >
+              Улучшите написанную работу
+            </p>
+          </div>
+
+          <!-- card4 -->
+          <div class="card1 flex items-center flex-col gap-4 justify-center">
+            <img src="./img/icon4.png" alt="" />
+            <p
+              class="text-center text-[16px] font-[400] max-[420px]:text-[12px]"
+            >
+              Продвиньте свою работу
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section:works ended -->
+
+    <!-- section:help started -->
+    <section class="help pb-[100px]">
+      <div class="container mt-[50px]">
+        <div class="flex items-center flex-col gap-[10px] pt-[50px]">
+          <h1 class="font-[700] text-[40px]">Сообщество</h1>
+          <p class="font-[400] text-[20px]">
+            Тысячи учёных уже предлагают свою помощь
+          </p>
+        </div>
+
+        <div
+          class="help_cards grid grid-cols-3 items-center gap-[20px] max-[1250px]:grid-cols-2 max-[1020px]:grid-cols-1"
+        >
+          <!-- help1 -->
+          <div class="help1">
+            <div class="yellow_green flex items-center gap-[20px]">
+              <div class="yellow bg-[#fdffe7] rounded-[75px]">
+                <p class="text-[11px] font-[900] text-[#bc9300] p-[8px]">
+                  Цитировать других
+                </p>
+              </div>
+              <div class="green bg-[#ebfffa] rounded-[75px] p-[8px]">
+                <p class="text-[#00a880] font-[900] text-[11px]">
+                  Neuro/Psycho
+                </p>
+              </div>
+            </div>
+            <p
+              class="mt-[15px] font-[600] text-[18px] max-[1325px]:text-[15px]"
+            >
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </p>
+            <p class="text-[15px] font-[500] mt-[15px]">Комментарий</p>
+            <p class="text-[14px] font-[400]">Вознаграждение</p>
+            <div class="sum flex items-center gap-[5px] mt-[15px]">
+              <img src="./svg/coin.svg" alt="" />
+              <p class="font-[400]">$1000</p>
+            </div>
+            <div
+              class="help_btns mt-[15px] flex items-center gap-[10px] max-[500px]:flex-col max-[500px]:items-start"
+            >
+              <button class="btn2">Процитировать других</button>
+              <button class="btn2">Принять в соавторы</button>
+              <button class="btn2">+1</button>
+            </div>
+
+            <div class="profile mt-[15px] flex items-center justify-between">
+              <div
+                class="profile_pic flex items-center gap-[10px] max-[430px]:flex-col max-[430px]:items-start"
+              >
+                <img src="./img/profile.png" alt="" />
+                <div class="ptofile_info">
+                  <div class="name1 flex items-center gap-2">
+                    <h5 class="font-[700] text-[16px]">Артём Белоусов</h5>
+                    <img src="./svg/flag.svg" alt="" />
+                  </div>
+
+                  <p>учёный (кандидат наук)</p>
+                  <p>Санкт-Петербургский горный университет</p>
+                </div>
+              </div>
+              <div class="stars flex items-center">
+                <img src="./svg/star.svg" alt="" />
+                <p class="font-[500] text-[20px] text-[#3a85f4]">4,4</p>
+              </div>
+            </div>
+            <div class="main_btns mt-[15px] flex items-center gap-[10px]">
+              <button class="btn btn1">Предложить сотрудничество</button>
+              <button class="btn max-[300px]:hidden">
+                <img src="./svg/next.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- help2 -->
+          <div class="help1">
+            <div class="yellow_green flex items-center gap-[20px]">
+              <div class="yellow bg-[#fdffe7] rounded-[75px]">
+                <p class="text-[11px] font-[900] text-[#bc9300] p-[8px]">
+                  Цитировать других
+                </p>
+              </div>
+              <div class="green bg-[#ebfffa] rounded-[75px] p-[8px]">
+                <p class="text-[#00a880] font-[900] text-[11px]">
+                  Neuro/Psycho
+                </p>
+              </div>
+            </div>
+            <p
+              class="mt-[15px] font-[600] text-[18px] max-[1325px]:text-[15px]"
+            >
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </p>
+            <p class="text-[15px] font-[500] mt-[15px]">Комментарий</p>
+            <p class="text-[14px] font-[400]">Вознаграждение</p>
+            <div class="sum flex items-center gap-[5px] mt-[15px]">
+              <img src="./svg/coin.svg" alt="" />
+              <p class="font-[400]">$1000</p>
+            </div>
+            <div
+              class="help_btns mt-[15px] flex items-center gap-[10px] max-[500px]:flex-col max-[500px]:items-start"
+            >
+              <button class="btn2">Процитировать других</button>
+              <button class="btn2">Принять в соавторы</button>
+              <button class="btn2">+1</button>
+            </div>
+
+            <div class="profile mt-[15px] flex items-center justify-between">
+              <div
+                class="profile_pic flex items-center gap-[10px] max-[430px]:flex-col max-[430px]:items-start"
+              >
+                <img src="./img/profile.png" alt="" />
+                <div class="ptofile_info">
+                  <div class="name1 flex items-center gap-2">
+                    <h5 class="font-[700] text-[16px]">Артём Белоусов</h5>
+                    <img src="./svg/flag.svg" alt="" />
+                  </div>
+
+                  <p>учёный (кандидат наук)</p>
+                  <p>Санкт-Петербургский горный университет</p>
+                </div>
+              </div>
+              <div class="stars flex items-center">
+                <img src="./svg/star.svg" alt="" />
+                <p class="font-[500] text-[20px] text-[#3a85f4]">4,4</p>
+              </div>
+            </div>
+            <div class="main_btns mt-[15px] flex items-center gap-[10px]">
+              <button class="btn btn1">Предложить сотрудничество</button>
+              <button class="btn max-[300px]:hidden">
+                <img src="./svg/next.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- help3 -->
+          <div class="help1">
+            <div class="yellow_green flex items-center gap-[20px]">
+              <div class="yellow bg-[#fdffe7] rounded-[75px]">
+                <p class="text-[11px] font-[900] text-[#bc9300] p-[8px]">
+                  Цитировать других
+                </p>
+              </div>
+              <div class="green bg-[#ebfffa] rounded-[75px] p-[8px]">
+                <p class="text-[#00a880] font-[900] text-[11px]">
+                  Neuro/Psycho
+                </p>
+              </div>
+            </div>
+            <p
+              class="mt-[15px] font-[600] text-[18px] max-[1325px]:text-[15px]"
+            >
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </p>
+            <p class="text-[15px] font-[500] mt-[15px]">Комментарий</p>
+            <p class="text-[14px] font-[400]">Вознаграждение</p>
+            <div class="sum flex items-center gap-[5px] mt-[15px]">
+              <img src="./svg/coin.svg" alt="" />
+              <p class="font-[400]">$1000</p>
+            </div>
+            <div
+              class="help_btns mt-[15px] flex items-center gap-[10px] max-[500px]:flex-col max-[500px]:items-start"
+            >
+              <button class="btn2">Процитировать других</button>
+              <button class="btn2">Принять в соавторы</button>
+              <button class="btn2">+1</button>
+            </div>
+
+            <div class="profile mt-[15px] flex items-center justify-between">
+              <div
+                class="profile_pic flex items-center gap-[10px] max-[430px]:flex-col max-[430px]:items-start"
+              >
+                <img src="./img/profile.png" alt="" />
+                <div class="ptofile_info">
+                  <div class="name1 flex items-center gap-2">
+                    <h5 class="font-[700] text-[16px]">Артём Белоусов</h5>
+                    <img src="./svg/flag.svg" alt="" />
+                  </div>
+
+                  <p>учёный (кандидат наук)</p>
+                  <p>Санкт-Петербургский горный университет</p>
+                </div>
+              </div>
+              <div class="stars flex items-center">
+                <img src="./svg/star.svg" alt="" />
+                <p class="font-[500] text-[20px] text-[#3a85f4]">4,4</p>
+              </div>
+            </div>
+            <div class="main_btns mt-[15px] flex items-center gap-[10px]">
+              <button class="btn btn1">Предложить сотрудничество</button>
+              <button class="btn max-[300px]:hidden">
+                <img src="./svg/next.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- help4 -->
+          <div class="help1">
+            <div class="yellow_green flex items-center gap-[20px]">
+              <div class="yellow bg-[#fdffe7] rounded-[75px]">
+                <p class="text-[11px] font-[900] text-[#bc9300] p-[8px]">
+                  Цитировать других
+                </p>
+              </div>
+              <div class="green bg-[#ebfffa] rounded-[75px] p-[8px]">
+                <p class="text-[#00a880] font-[900] text-[11px]">
+                  Neuro/Psycho
+                </p>
+              </div>
+            </div>
+            <p
+              class="mt-[15px] font-[600] text-[18px] max-[1325px]:text-[15px]"
+            >
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </p>
+            <p class="text-[15px] font-[500] mt-[15px]">Комментарий</p>
+            <p class="text-[14px] font-[400]">Вознаграждение</p>
+            <div class="sum flex items-center gap-[5px] mt-[15px]">
+              <img src="./svg/coin.svg" alt="" />
+              <p class="font-[400]">$1000</p>
+            </div>
+            <div
+              class="help_btns mt-[15px] flex items-center gap-[10px] max-[500px]:flex-col max-[500px]:items-start"
+            >
+              <button class="btn2">Процитировать других</button>
+              <button class="btn2">Принять в соавторы</button>
+              <button class="btn2">+1</button>
+            </div>
+
+            <div class="profile mt-[15px] flex items-center justify-between">
+              <div
+                class="profile_pic flex items-center gap-[10px] max-[430px]:flex-col max-[430px]:items-start"
+              >
+                <img src="./img/profile.png" alt="" />
+                <div class="ptofile_info">
+                  <div class="name1 flex items-center gap-2">
+                    <h5 class="font-[700] text-[16px]">Артём Белоусов</h5>
+                    <img src="./svg/flag.svg" alt="" />
+                  </div>
+
+                  <p>учёный (кандидат наук)</p>
+                  <p>Санкт-Петербургский горный университет</p>
+                </div>
+              </div>
+              <div class="stars flex items-center">
+                <img src="./svg/star.svg" alt="" />
+                <p class="font-[500] text-[20px] text-[#3a85f4]">4,4</p>
+              </div>
+            </div>
+            <div class="main_btns mt-[15px] flex items-center gap-[10px]">
+              <button class="btn btn1">Предложить сотрудничество</button>
+              <button class="btn max-[300px]:hidden">
+                <img src="./svg/next.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- help5 -->
+          <div class="help1">
+            <div class="yellow_green flex items-center gap-[20px]">
+              <div class="yellow bg-[#fdffe7] rounded-[75px]">
+                <p class="text-[11px] font-[900] text-[#bc9300] p-[8px]">
+                  Цитировать других
+                </p>
+              </div>
+              <div class="green bg-[#ebfffa] rounded-[75px] p-[8px]">
+                <p class="text-[#00a880] font-[900] text-[11px]">
+                  Neuro/Psycho
+                </p>
+              </div>
+            </div>
+            <p
+              class="mt-[15px] font-[600] text-[18px] max-[1325px]:text-[15px]"
+            >
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </p>
+            <p class="text-[15px] font-[500] mt-[15px]">Комментарий</p>
+            <p class="text-[14px] font-[400]">Вознаграждение</p>
+            <div class="sum flex items-center gap-[5px] mt-[15px]">
+              <img src="./svg/coin.svg" alt="" />
+              <p class="font-[400]">$1000</p>
+            </div>
+            <div
+              class="help_btns mt-[15px] flex items-center gap-[10px] max-[500px]:flex-col max-[500px]:items-start"
+            >
+              <button class="btn2">Процитировать других</button>
+              <button class="btn2">Принять в соавторы</button>
+              <button class="btn2">+1</button>
+            </div>
+
+            <div class="profile mt-[15px] flex items-center justify-between">
+              <div
+                class="profile_pic flex items-center gap-[10px] max-[430px]:flex-col max-[430px]:items-start"
+              >
+                <img src="./img/profile.png" alt="" />
+                <div class="ptofile_info">
+                  <div class="name1 flex items-center gap-2">
+                    <h5 class="font-[700] text-[16px]">Артём Белоусов</h5>
+                    <img src="./svg/flag.svg" alt="" />
+                  </div>
+
+                  <p>учёный (кандидат наук)</p>
+                  <p>Санкт-Петербургский горный университет</p>
+                </div>
+              </div>
+              <div class="stars flex items-center">
+                <img src="./svg/star.svg" alt="" />
+                <p class="font-[500] text-[20px] text-[#3a85f4]">4,4</p>
+              </div>
+            </div>
+            <div class="main_btns mt-[15px] flex items-center gap-[10px]">
+              <button class="btn btn1">Предложить сотрудничество</button>
+              <button class="btn max-[300px]:hidden">
+                <img src="./svg/next.svg" alt="" />
+              </button>
+            </div>
+          </div>
+          <!-- help6 -->
+          <div class="help1">
+            <div class="yellow_green flex items-center gap-[20px]">
+              <div class="yellow bg-[#fdffe7] rounded-[75px]">
+                <p class="text-[11px] font-[900] text-[#bc9300] p-[8px]">
+                  Цитировать других
+                </p>
+              </div>
+              <div class="green bg-[#ebfffa] rounded-[75px] p-[8px]">
+                <p class="text-[#00a880] font-[900] text-[11px]">
+                  Neuro/Psycho
+                </p>
+              </div>
+            </div>
+            <p
+              class="mt-[15px] font-[600] text-[18px] max-[1325px]:text-[15px]"
+            >
+              Вопросы проектирования трансатлантического межнационального
+              продуктопровода в условиях нарастающей коронавирусной пандемии
+            </p>
+            <p class="text-[15px] font-[500] mt-[15px]">Комментарий</p>
+            <p class="text-[14px] font-[400]">Вознаграждение</p>
+            <div class="sum flex items-center gap-[5px] mt-[15px]">
+              <img src="./svg/coin.svg" alt="" />
+              <p class="font-[400]">$1000</p>
+            </div>
+            <div
+              class="help_btns mt-[15px] flex items-center gap-[10px] max-[500px]:flex-col max-[500px]:items-start"
+            >
+              <button class="btn2">Процитировать других</button>
+              <button class="btn2">Принять в соавторы</button>
+              <button class="btn2">+1</button>
+            </div>
+
+            <div class="profile mt-[15px] flex items-center justify-between">
+              <div
+                class="profile_pic flex items-center gap-[10px] max-[430px]:flex-col max-[430px]:items-start"
+              >
+                <img src="./img/profile.png" alt="" />
+                <div class="ptofile_info">
+                  <div class="name1 flex items-center gap-2">
+                    <h5 class="font-[700] text-[16px]">Артём Белоусов</h5>
+                    <img src="./svg/flag.svg" alt="" />
+                  </div>
+
+                  <p>учёный (кандидат наук)</p>
+                  <p>Санкт-Петербургский горный университет</p>
+                </div>
+              </div>
+              <div class="stars flex items-center">
+                <img src="./svg/star.svg" alt="" />
+                <p class="font-[500] text-[20px] text-[#3a85f4]">4,4</p>
+              </div>
+            </div>
+            <div class="main_btns mt-[15px] flex items-center gap-[10px]">
+              <button class="btn btn1">Предложить сотрудничество</button>
+              <button class="btn max-[300px]:hidden">
+                <img src="./svg/next.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="the_last_btn flex items-center justify-center mt-[30px]">
+          <button class="btn">Смотреть все</button>
+        </div>
+      </div>
+    </section>
+    <!-- section:help ended -->
+
+    <!-- footer started -->
+    <footer class="footer bg-black">
+      <div class="container p-[20px]">
+        <div class="footer_links flex items-center justify-between max-[1070px]:flex-col">
+          <div class="links1 flex items-center flex-col">
+            <p><a class="text-[white]" href="#">Authortie </a></p>
+            <p><a class="text-[#888]" href="#">© Все права защищены</a></p>
+          </div>
+          <div class="links2 flex items-center gap-[25px] max-[845px]:flex-col">
+            <p>
+              <a class="text-[white] text-[16px] font-[400] text-center max-[310px]:hidden" href="#"
+                >Политика конфиденциальности</a
+              >
+            </p>
+            <p>
+              <a class="text-[white] text-[16px] font-[400]" href="#"
+                >Аналитика</a
+              >
+            </p>
+            <p>
+              <a class="text-[white] text-[16px] font-[400]" href="#"
+                >Сообщество</a
+              >
+            </p>
+            <p>
+              <a class="text-[white] text-[16px] font-[400]" href="#"
+                >Для организаций</a
+              >
+            </p>
+          </div>
+          <div class="footer_icons flex items-center gap-[15px] max-[1070px]:mt-[20px]">
+            <img src="./svg/facebook.svg" alt="" />
+            <img src="./svg/instagram.svg" alt="" />
+            <img src="./svg/telegram.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ended -->
+  </body>
+</html>
